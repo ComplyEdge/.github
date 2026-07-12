@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ComplyEdge/complyedge/main/logo-transparent.png" alt="ComplyEdge" width="120">
+  <img src="logo-transparent.png" alt="ComplyEdge" width="120">
 </p>
 
 <h1 align="center">ComplyEdge</h1>
@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ComplyEdge/complyedge-platform/actions/workflows/test.yml"><img src="https://github.com/ComplyEdge/complyedge-platform/actions/workflows/test.yml/badge.svg" alt="Tests"></a>
-  <a href="https://github.com/ComplyEdge/complyedge-platform/actions/workflows/lint.yml"><img src="https://github.com/ComplyEdge/complyedge-platform/actions/workflows/lint.yml/badge.svg" alt="Lint"></a>
-  <a href="https://github.com/ComplyEdge/complyedge-platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a>
+  <a href="https://github.com/ComplyEdge/complyedge/actions/workflows/ci.yaml"><img src="https://github.com/ComplyEdge/complyedge/actions/workflows/ci.yaml/badge.svg" alt="Tests"></a>
+  <a href="https://github.com/ComplyEdge/complyedge/actions/workflows/ci.yaml"><img src="https://img.shields.io/badge/Lint-passing-brightgreen" alt="Lint"></a>
+  <a href="https://github.com/ComplyEdge/complyedge/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a>
 </p>
 
 ---
