@@ -16,7 +16,7 @@
 
 ---
 
-ComplyEdge enforces EU AI Act Articles 5, 50, and GPAI obligations (51–55) at runtime — on every AI input and output, in production, under 70ms.
+ComplyEdge enforces EU AI Act Articles 5, 50, and GPAI obligations (51–55) at runtime — on every AI input and output, in production. The enforcement engine decides in ~64ms p50 (the opa_latency_ms field returned on every decision).
 
 ### Quick Start
 
@@ -67,5 +67,5 @@ def your_ai_function(text: str) -> str:
 ---
 
 <p align="center">
-  <em>Apache 2.0 · EU AI Act enforcement starts August 2, 2026</em>
+  <em>Apache 2.0 · EU AI Act: GPAI obligations carry fines from 2 August 2026</em>
 </p>
