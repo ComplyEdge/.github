@@ -43,12 +43,16 @@ def your_ai_function(text: str) -> str:
 
 ### Rule Corpus
 
-25 YAML rules across 3 regulation groups:
+64 YAML rules, compiled to 69 OPA/Rego policies (63 leaf policies and 6 package aggregators), of which 51 leaves are the EU AI Act:
 
-- **EU AI Act Article 5** — 7 prohibited practices (social scoring, biometric ID, predictive policing, emotion recognition, ...)
-- **EU AI Act Article 50** — 4 transparency obligations (AI disclosure, deepfakes, chatbot identity, watermarking)
+- **EU AI Act Article 5** — 9 prohibited practices (social scoring, biometric ID, predictive policing, emotion recognition, ...)
+- **EU AI Act Article 50** — 5 transparency obligations (AI disclosure, deepfakes, chatbot identity, watermarking)
 - **GPAI Articles 51–55** — 5 obligations (model classification, copyright, documentation, systemic risk, downstream)
-- **GDPR, SOX, HIPAA, TCPA, COPPA, PCI DSS** — US + Global regulations
+- **Other EU AI Act articles** — 11 covering Art 4, 6, 9, 10, 12, 13, 14, 15, 16, 26 and 27
+- **GDPR** — 6 (consent, DPIA, erasure, minimisation, breach notification, cross-border transfer)
+- **US + global** — 28 across SOX, HIPAA, TCPA, COPPA, PCI DSS, sanctions and prompt security
+
+Every EU AI Act rule is open source, and every blocked request carries a verbatim article citation.
 
 ### Repos
 
