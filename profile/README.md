@@ -59,7 +59,7 @@ Every EU AI Act rule is open source, and every blocked request carries a verbati
 | Repo | Description |
 |------|-------------|
 | [complyedge](https://github.com/ComplyEdge/complyedge) | Open source compliance engine, SDKs, and rules |
-| [complyedge-platform](https://github.com/ComplyEdge/complyedge-platform) | Full platform (private) |
+| complyedge-platform | Full platform (private, not publicly accessible) |
 
 ### Links
 
