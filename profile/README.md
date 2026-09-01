@@ -16,13 +16,20 @@
 
 ---
 
-ComplyEdge enforces EU AI Act Articles 5, 50, and GPAI obligations (51–55) at runtime — on every AI input and output, in production. The enforcement engine decides in ~64ms p50 (the opa_latency_ms field returned on every decision).
+EU AI Act Article 5 and Article 50 runtime deny for AI agents — on every input and output, in production. Classifiers (`eu-ai-act-*`) score the *system*; ComplyEdge denies *this* prompt or output. Article 50 here is unlabeled or deceptive use, not C2PA.
 
 ### Quick Start
 
 ```bash
 pip install complyedge
+pip install trustlint
+pip install 'complyedge[mcp]'
+npx -y @complyedge/mcp
+claude mcp add complyedge -- npx -y @complyedge/mcp
+pip install 'complyedge[agents]'
 ```
+
+CI: `uses: complyedge/trustlint-action@v1`
 
 ```python
 from complyedge import compliance_check
