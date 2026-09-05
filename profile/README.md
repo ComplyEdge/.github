@@ -73,10 +73,10 @@ Every EU AI Act rule is open source, and every blocked request carries a verbati
 - 🌐 [complyedge.io](https://complyedge.io) — Website
 - 📖 [Quick Start Guide](https://complyedge.io/docs/quick-start.html)
 - 📚 [API Reference](https://complyedge.io/docs/api-reference.html)
-- 💰 [Pricing](https://complyedge.io/pricing.html)
+- 💰 [Pricing](https://complyedge.io/#enterprise)
 
 ---
 
 <p align="center">
-  <em>Apache 2.0 · EU AI Act: GPAI obligations carry fines from 2 August 2026</em>
+  <em>Apache 2.0 · EU AI Act: GPAI fines have applied since 2 August 2026</em>
 </p>
