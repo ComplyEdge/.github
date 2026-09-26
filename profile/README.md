@@ -50,7 +50,7 @@ def your_ai_function(text: str) -> str:
 
 ### Rule Corpus
 
-64 YAML rules, compiled to 71 OPA/Rego policies (64 leaf policies and 7 package aggregators), of which 51 leaves are the EU AI Act:
+63 YAML rules, compiled to 71 OPA/Rego policies (64 leaf policies and 7 package aggregators), of which 51 leaves are the EU AI Act:
 
 - **EU AI Act Article 5** — 9 prohibited practices (social scoring, biometric ID, predictive policing, emotion recognition, ...)
 - **EU AI Act Article 50** — 5 transparency obligations (AI disclosure, deepfakes, chatbot identity, watermarking)
